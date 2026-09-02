@@ -17,7 +17,7 @@ theta1 = 0:1:360;
 
 % POSITION ANALYSIS
 for i=1:n
-    [s(i), theta3(i)] = positiom_analysis_byth1(theta1(i),L1,L2, x_DC, y_DC);
+    [s(i), theta3(i)] = position_analysis_byth1(theta1(i),L1,L2, x_DC, y_DC);
 end
 
 % VELOCITY ANALYSIS (considering theta1 with constant velocity)
